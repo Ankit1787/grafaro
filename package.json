@@ -1,0 +1,20 @@
+{
+  "name": "Grafana",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "dependencies": {
+    "@grafana/faro-web-sdk": "^2.7.1",
+    "@grafana/faro-web-tracing": "^2.7.1",
+    "@types/node": "^26.0.0",
+    "nuxt": "^4.4.8",
+    "vue": "^3.5.35",
+    "vue-router": "^5.1.0"
+  }
+}
